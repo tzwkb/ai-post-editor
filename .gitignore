@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project data & logs
+input/
+output/
+logs/
+files/
+TB/
+TM/*.embeddings.npy
+
+# Run artifacts
+run_log.xlsx
+test.xlsx
+*.xlsx
+!prompts/*.md
