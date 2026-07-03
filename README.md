@@ -1,5 +1,44 @@
 # AI Post-Editor
 
+<!-- bilingual-readme:start -->
+
+## 双语说明 / Bilingual Documentation
+
+> 本节提供整篇 README 的中英双语维护说明；下方保留原始详细说明、命令、路径和配置示例。
+> This section provides bilingual maintenance notes for the full README; the original detailed notes, commands, paths, and configuration examples are preserved below.
+
+### 中文
+
+**概览**：游戏本地化 Excel 批量 AI 后编辑工具，读取中文源文和机器英文译文，输出 MTPE 与 QA 后的修订文件。
+
+**主要能力**：
+- 批量处理游戏本地化 Excel。
+- 调用 LLM 做英文译文后编辑。
+- 运行自动 QA 并输出修正后的表格。
+
+**使用方式**：按下方说明准备 Excel 输入、API 配置和输出路径后运行。
+
+**状态**：该仓库仍按当前 README 的说明维护或使用。
+
+**注意事项**：该工具面向 MTPE/QA 工作流，术语和风格要求应来自项目资料。
+
+### English
+
+**Overview**: Batch AI post-editing tool for game-localization Excel files, reading Chinese source and MT English, then outputting MTPE/QA-corrected files.
+
+**Key capabilities**:
+- Batch-processes game-localization Excel files.
+- Calls an LLM for English MTPE.
+- Runs automated QA and writes corrected spreadsheets.
+
+**Usage**: Prepare Excel input, API configuration, and output paths as described below.
+
+**Status**: This repository is maintained or used according to the current README notes.
+
+**Notes**: The tool targets MTPE/QA workflows; terminology and style rules should come from project references.
+
+<!-- bilingual-readme:end -->
+
 Batch-process game-localization Excel files: read Chinese source text + machine-translated English, call an LLM for post-editing (MTPE), run automated QA checks, and output corrected Excel files.
 
 ## Quick Start
