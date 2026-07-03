@@ -1,6 +1,6 @@
 # AI Post-Editor
 
-中文 | [English](README.md)
+[English](README.md) | 中文
 
 
 ## 概览
