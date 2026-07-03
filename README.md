@@ -1,6 +1,6 @@
 # AI Post-Editor
 
-[中文](README_ZH.md) | English
+English | [中文](README_ZH.md)
 
 
 Batch-process game-localization Excel files: read Chinese source text + machine-translated English, call an LLM for post-editing (MTPE), run automated QA checks, and output corrected Excel files.
