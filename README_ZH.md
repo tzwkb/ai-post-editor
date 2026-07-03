@@ -2,6 +2,7 @@
 
 中文 | [English](README.md)
 
+
 ## 概览
 
 游戏本地化 Excel 批量 AI 后编辑工具，读取中文源文和机器英文译文，输出 MTPE 与 QA 后的修订文件。
