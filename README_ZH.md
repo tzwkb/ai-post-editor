@@ -1,11 +1,23 @@
 # AI Post-Editor
 
-[English](README.md) | 中文
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 
+[English](README.md) | 中文
 
 ## 概览
 
 游戏本地化 Excel 批量 AI 后编辑工具，读取中文源文和机器英文译文，输出 MTPE 与 QA 后的修订文件。
+
+## 文档对齐说明
+
+本 README_ZH.md 与英文 README.md 使用同一项目事实，但采用中文读者更容易扫描的结构。命令、路径、配置键和示例数据保持原样。
+
+## 主要能力
+
+- 按项目术语和风格规则处理翻译初稿。
+- 组织源文、初译和输出文件。
+- 支持在不同项目 profile 之间切换。
 
 ## 主要能力
 
